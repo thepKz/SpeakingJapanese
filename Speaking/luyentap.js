@@ -142,7 +142,7 @@ NHẬN XÉT: [Trả lời 2]
 
     try {
         // Gọi API để đánh giá phát âm
-        const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=YOUR_API_KEY', {
+        const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyDp2aAZ6IiFFKDbddhPnHcrGYuSMvVPBGk', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
